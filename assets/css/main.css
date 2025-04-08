@@ -615,7 +615,7 @@ section,
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 60px 0;
-  scroll-margin-top: 92px;
+  scroll-margin-top: 100px;
   overflow: clip;
 }
 
@@ -623,7 +623,7 @@ section,
 
   section,
   .section {
-    scroll-margin-top: 76px;
+    scroll-margin-top: 100px;
   }
 }
 
@@ -1620,6 +1620,52 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+
+
+
+
+
+.project-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background: #fff;
+}
+
+.project-item:hover {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.project-thumb img {
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-title {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.project-brief {
+  color: #777;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
